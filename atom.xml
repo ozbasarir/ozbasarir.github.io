@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ozbasarir.github.io/"/>
-  <updated>2016-09-12T20:17:33.000Z</updated>
+  <updated>2016-09-13T22:38:54.000Z</updated>
   <id>http://ozbasarir.github.io/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Setting up a Blogging Environment</title>
+    <link href="http://ozbasarir.github.io/2016/09/13/Setting-up-a-Blogging-Environment/"/>
+    <id>http://ozbasarir.github.io/2016/09/13/Setting-up-a-Blogging-Environment/</id>
+    <published>2016-09-13T22:38:54.000Z</published>
+    <updated>2016-09-13T22:38:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Recently, I have made a commitment to start blogging more seriously and regularly. First, however, I wanted to research the best blogging tools and settle on one that would meet my main needs for some time to come. Some criteria that were on the top of my list were:</p>
+<ul>
+<li>Flexibility: I wanted to be able to customize not just the UI but also the background plumbing as needed.<br>-</li>
+</ul>
+<img src="/2016/09/13/Setting-up-a-Blogging-Environment/blogging_with_hexo_from_laptop.png" alt="Blogging with Hexo from laptop/desktop" title="Blogging with Hexo from laptop/desktop">
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">.</div><div class="line">├── source</div><div class="line">    ├── _drafts</div><div class="line">        ├── mypost1 (asset directory for mypost1)</div><div class="line">            ├── myimage1.jpg</div><div class="line">            └── ...</div><div class="line">        ├── mypost1.md</div><div class="line">        └── ... (an asset directory and a markdown file for each post)</div><div class="line">    ├── _posts</div><div class="line">        └── ... (same structure as _drafts, for published posts)</div><div class="line">    └── about (each custom page is a separate directory like this one)</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Recently, I have made a commitment to start blogging more seriously and regularly. First, however, I wanted to research the best blogging
+    
+    </summary>
+    
+    
+      <category term="tools, blogging" scheme="http://ozbasarir.github.io/tags/tools-blogging/"/>
+    
+  </entry>
   
   <entry>
     <title>Title of First Post</title>
