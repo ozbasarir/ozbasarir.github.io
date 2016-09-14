@@ -12,7 +12,7 @@
 <meta property="og:site_name" content="Oz Basarir">
 <meta property="og:description" content="Recently, I have made a commitment to start blogging more seriously and regularly. First, however, I wanted to research the best blogging tools and settle on one that would meet my main needs for some">
 <meta property="og:image" content="http://ozbasarir.github.io/2016/09/13/Setting-up-a-Blogging-Environment/blogging_with_hexo_from_laptop.png">
-<meta property="og:updated_time" content="2016-09-14T05:42:51.000Z">
+<meta property="og:updated_time" content="2016-09-14T07:10:02.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Setting up a Blogging Environment">
 <meta name="twitter:description" content="Recently, I have made a commitment to start blogging more seriously and regularly. First, however, I wanted to research the best blogging tools and settle on one that would meet my main needs for some">
@@ -25,6 +25,19 @@
   <link href="/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="/css/style.css">
   
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-26334908-2', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
 
 </head>
 
@@ -79,14 +92,14 @@
       
         <p>Recently, I have made a commitment to start blogging more seriously and regularly. First, however, I wanted to research the best blogging tools and settle on one that would meet my main needs for some time to come. Some criteria that were on the top of my list were:</p>
 <ul>
-<li><p><strong>Flexibility</strong>: Could I customize the UI as well as the background plumbing as needed? Granted, I didn’t want to build my own blogging tool from the ground up since there were already so many options, I still wanted to be able to tweak the theme I chose for the UI. I also wanted to extend the features using both the existing plugins and the new ones as they become available in the future.</p>
+<li><p><strong>Flexibility</strong>: Could I customize the UI and the background plumbing as needed? Granted, I didn’t want to build my own blogging tool from the ground up since there were already so many options, I still wanted to be able to tweak the theme I chose for the UI. I also wanted to extend the features using both the existing plugins and the new ones as they become available in the future.</p>
 </li>
 <li><p><strong>Simplicity</strong>: Could I get up and running quickly? Would I hit any road blocks later? The simpler the system, the quicker I could get up to speed and the fewer issues I would need to deal with later on as well.</p>
 </li>
 <li><p><strong>Community</strong>: Was I getting on board with a tool that will be around for a while? For this, I reviewed several sites including  <a href="http://www.staticgen.com/" target="_blank" rel="external">StaticGen</a>.</p>
 </li>
 </ul>
-<p>While it was not a clear-cut and easy decision, in the end, I chose to go with <a href="https://hexo.io" target="_blank" rel="external">Hexo</a>. I will not go into further details on how I arrived at this conclusion because many of my considerations were very personal, such as choosing a tool based on Node.js versus one based on ruby since I already had a Node.js environment.</p>
+<p>While it was not a clear-cut and easy decision, in the end, I chose to go with <a href="https://hexo.io" target="_blank" rel="external">Hexo</a>. I will not go into further details on how I arrived at this conclusion because many of my considerations were very personal, such as choosing a tool based on Node.js versus one based on ruby because I already had a Node.js environment.</p>
 <p>Once I settled on Hexo as the blogging framework, the next decision was where to host my blog. I had the option to push the content on to one of my servers or I could host it on GitHub Pages at a url such as <a href="ozbasarir.github.io">ozbasarir.github.io</a> for free with GitHub repository integration.</p>
 <p>If I hosted on GitHub Pages, I could use the “hexo deploy” command (after installing the <a href="https://github.com/hexojs/hexo-deployer-git" target="_blank" rel="external">git deploy plugin</a> with <code>npm install hexo-deployer-git --save</code> and updating  <code>_config.yml</code>) to push updates of my posts to a GitHub repo. And since GitHub Pages would automatically publish the content of this repo, the changes would be live on the public blog site at the same time without any additional effort. Because I was already comfortable with GitHub and had created a few repos previously, this option appealed to me and I went with hosting on GitHub Pages.</p>
 <p>Below is a diagram of my setup:</p>
