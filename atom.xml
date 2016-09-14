@@ -57,28 +57,4 @@
     
   </entry>
   
-  <entry>
-    <title>Title of First Post</title>
-    <link href="http://ozbasarir.github.io/2016/09/12/hello-world/"/>
-    <id>http://ozbasarir.github.io/2016/09/12/hello-world/</id>
-    <published>2016-09-12T07:17:00.000Z</published>
-    <updated>2016-09-12T20:17:33.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>First Post</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;First Post&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="Best Practices" scheme="http://ozbasarir.github.io/categories/Best-Practices/"/>
-    
-    
-      <category term="product management" scheme="http://ozbasarir.github.io/tags/product-management/"/>
-    
-  </entry>
-  
 </feed>
