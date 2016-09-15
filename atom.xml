@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ozbasarir.github.io/"/>
-  <updated>2016-09-15T19:19:07.000Z</updated>
+  <updated>2016-09-15T19:20:40.000Z</updated>
   <id>http://ozbasarir.github.io/</id>
   
   <author>
@@ -20,18 +20,18 @@
     <link href="http://ozbasarir.github.io/2016/09/14/Why-Dogs-Love-the-Beach/"/>
     <id>http://ozbasarir.github.io/2016/09/14/Why-Dogs-Love-the-Beach/</id>
     <published>2016-09-14T17:10:40.000Z</published>
-    <updated>2016-09-15T19:19:07.000Z</updated>
+    <updated>2016-09-15T19:20:40.000Z</updated>
     
-    <content type="html"><![CDATA[<img src="/2016/09/14/Why-Dogs-Love-the-Beach/hazel_loves_the_beach1.jpg" alt="Hazel loves the beach" title="Hazel loves the beach"> Hazel loves the beach…<br><a id="more"></a>
-<img src="/2016/09/14/Why-Dogs-Love-the-Beach/hazel_loves_the_beach1.jpg" alt="Hazel loves the beach" title="Hazel loves the beach">
-<p>This is Hazel, my daughter’s dog. This morning I took her to the beach and as she does every time, she started running with excitement.</p>
+    <content type="html"><![CDATA[<img src="/2016/09/14/Why-Dogs-Love-the-Beach/hazel_loves_the_beach1.jpg" alt="Hazel loves the beach" title="Hazel loves the beach">
+<p>This is Hazel, my daughter’s dog. This morning I took her to the beach and as she does every time, she started running with excitement.<br><a id="more"></a></p>
 <p>Now, I love going to the beach -maybe because I grew up along the Mediterranean and I was almost addicted to the coast- but I don’t think I ever showed my happiness as much as Hazel does. She makes that happy puppy face, starts running in every direction sometimes sniffing with her nose in the sand and sometimes looking in the distance, alert as a coast guard. If there are birds around, then it’s definitely play time; by the way birds circle around and dive towards Hazel, it seems they enjoy play just as much.</p>
 <img src="/2016/09/14/Why-Dogs-Love-the-Beach/hazel_loves_the_beach_sand.jpg" alt="Life is Good" title="Life is Good">
 ]]></content>
     
     <summary type="html">
     
-      &lt;img src=&quot;/2016/09/14/Why-Dogs-Love-the-Beach/hazel_loves_the_beach1.jpg&quot; alt=&quot;Hazel loves the beach&quot; title=&quot;Hazel loves the beach&quot;&gt; Hazel loves the beach…&lt;br&gt;
+      &lt;img src=&quot;/2016/09/14/Why-Dogs-Love-the-Beach/hazel_loves_the_beach1.jpg&quot; alt=&quot;Hazel loves the beach&quot; title=&quot;Hazel loves the beach&quot;&gt;
+&lt;p&gt;This is Hazel, my daughter’s dog. This morning I took her to the beach and as she does every time, she started running with excitement.&lt;br&gt;
     
     </summary>
     
@@ -45,10 +45,9 @@
     <link href="http://ozbasarir.github.io/2016/09/13/Setting-up-a-Blogging-Environment/"/>
     <id>http://ozbasarir.github.io/2016/09/13/Setting-up-a-Blogging-Environment/</id>
     <published>2016-09-13T22:38:54.000Z</published>
-    <updated>2016-09-15T19:19:05.000Z</updated>
+    <updated>2016-09-15T19:21:45.000Z</updated>
     
-    <content type="html"><![CDATA[<img src="/2016/09/13/Setting-up-a-Blogging-Environment/blogging_with_hexo_from_laptop.png" alt="blogging_with_hexo_from_laptop.png" title=""> Blogging with Hexo…<br><a id="more"></a>
-<p>Recently, I have made a commitment to start blogging more seriously and regularly. First, however, I wanted to research the best blogging tools and settle on one that would meet my main needs for some time to come. Some criteria that were on the top of my list were:</p>
+    <content type="html"><![CDATA[<p>Recently, I have made a commitment to start blogging more seriously and regularly. First, however, I wanted to research the best blogging tools and settle on one that would meet my main needs for some time to come. Some criteria that were on the top of my list were:<br><a id="more"></a></p>
 <ul>
 <li><p><strong>Flexibility</strong>: Could I customize the UI and the background plumbing as needed? Granted, I didn’t want to build my own blogging tool from the ground up since there were already so many options, I still wanted to be able to tweak the theme I chose for the UI. I also wanted to extend the features using both the existing plugins and the new ones as they become available in the future.</p>
 </li>
@@ -74,7 +73,7 @@
     
     <summary type="html">
     
-      &lt;img src=&quot;/2016/09/13/Setting-up-a-Blogging-Environment/blogging_with_hexo_from_laptop.png&quot; alt=&quot;blogging_with_hexo_from_laptop.png&quot; title=&quot;&quot;&gt; Blogging with Hexo…&lt;br&gt;
+      &lt;p&gt;Recently, I have made a commitment to start blogging more seriously and regularly. First, however, I wanted to research the best blogging tools and settle on one that would meet my main needs for some time to come. Some criteria that were on the top of my list were:&lt;br&gt;
     
     </summary>
     
