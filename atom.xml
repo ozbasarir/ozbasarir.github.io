@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ozbasarir.github.io/"/>
-  <updated>2016-09-15T19:16:27.000Z</updated>
+  <updated>2016-09-15T19:19:07.000Z</updated>
   <id>http://ozbasarir.github.io/</id>
   
   <author>
@@ -20,18 +20,18 @@
     <link href="http://ozbasarir.github.io/2016/09/14/Why-Dogs-Love-the-Beach/"/>
     <id>http://ozbasarir.github.io/2016/09/14/Why-Dogs-Love-the-Beach/</id>
     <published>2016-09-14T17:10:40.000Z</published>
-    <updated>2016-09-15T19:16:27.000Z</updated>
+    <updated>2016-09-15T19:19:07.000Z</updated>
     
-    <content type="html"><![CDATA[<!-- <img src="/2016/09/14/Why-Dogs-Love-the-Beach/hazel_loves_the_beach1.jpg" alt="Hazel loves the beach" title="Hazel loves the beach"> Hazel loves the beach… –&gt;
+    <content type="html"><![CDATA[<img src="/2016/09/14/Why-Dogs-Love-the-Beach/hazel_loves_the_beach1.jpg" alt="Hazel loves the beach" title="Hazel loves the beach"> Hazel loves the beach…<br><a id="more"></a>
 <img src="/2016/09/14/Why-Dogs-Love-the-Beach/hazel_loves_the_beach1.jpg" alt="Hazel loves the beach" title="Hazel loves the beach">
 <p>This is Hazel, my daughter’s dog. This morning I took her to the beach and as she does every time, she started running with excitement.</p>
 <p>Now, I love going to the beach -maybe because I grew up along the Mediterranean and I was almost addicted to the coast- but I don’t think I ever showed my happiness as much as Hazel does. She makes that happy puppy face, starts running in every direction sometimes sniffing with her nose in the sand and sometimes looking in the distance, alert as a coast guard. If there are birds around, then it’s definitely play time; by the way birds circle around and dive towards Hazel, it seems they enjoy play just as much.</p>
 <img src="/2016/09/14/Why-Dogs-Love-the-Beach/hazel_loves_the_beach_sand.jpg" alt="Life is Good" title="Life is Good">
--->]]></content>
+]]></content>
     
     <summary type="html">
     
-      &lt;!-- &lt;img src=&quot;/2016/09/14/Why-Dogs-Love-the-Beach/hazel_loves_the_beach1.jpg&quot; alt=&quot;Hazel loves the beach&quot; title=&quot;Hazel loves the beach&quot;&gt; Ha
+      &lt;img src=&quot;/2016/09/14/Why-Dogs-Love-the-Beach/hazel_loves_the_beach1.jpg&quot; alt=&quot;Hazel loves the beach&quot; title=&quot;Hazel loves the beach&quot;&gt; Hazel loves the beach…&lt;br&gt;
     
     </summary>
     
@@ -45,36 +45,36 @@
     <link href="http://ozbasarir.github.io/2016/09/13/Setting-up-a-Blogging-Environment/"/>
     <id>http://ozbasarir.github.io/2016/09/13/Setting-up-a-Blogging-Environment/</id>
     <published>2016-09-13T22:38:54.000Z</published>
-    <updated>2016-09-15T19:15:16.000Z</updated>
+    <updated>2016-09-15T19:19:05.000Z</updated>
     
-    <content type="html"><![CDATA[<!-- <img src="/2016/09/13/Setting-up-a-Blogging-Environment/blogging_with_hexo_from_laptop.png" alt="blogging_with_hexo_from_laptop.png" title=""> Blogging with Hexo… –&gt;
+    <content type="html"><![CDATA[<img src="/2016/09/13/Setting-up-a-Blogging-Environment/blogging_with_hexo_from_laptop.png" alt="blogging_with_hexo_from_laptop.png" title=""> Blogging with Hexo…<br><a id="more"></a>
 <p>Recently, I have made a commitment to start blogging more seriously and regularly. First, however, I wanted to research the best blogging tools and settle on one that would meet my main needs for some time to come. Some criteria that were on the top of my list were:</p>
 <ul>
 <li><p><strong>Flexibility</strong>: Could I customize the UI and the background plumbing as needed? Granted, I didn’t want to build my own blogging tool from the ground up since there were already so many options, I still wanted to be able to tweak the theme I chose for the UI. I also wanted to extend the features using both the existing plugins and the new ones as they become available in the future.</p>
 </li>
 <li><p><strong>Simplicity</strong>: Could I get up and running quickly? Would I hit any road blocks later? The simpler the system, the quicker I could get up to speed and the fewer issues I would need to deal with later on as well.</p>
 </li>
-<li><p><strong>Community</strong>: Was I getting on board with a tool that will be around for a while? For this, I reviewed several sites including  <a href="http://www.staticgen.com/">StaticGen</a>.</p>
+<li><p><strong>Community</strong>: Was I getting on board with a tool that will be around for a while? For this, I reviewed several sites including  <a href="http://www.staticgen.com/" target="_blank" rel="external">StaticGen</a>.</p>
 </li>
 </ul>
-<p>While it was not a clear-cut and easy decision, in the end, I chose to go with <a href="https://hexo.io">Hexo</a>. I will not go into further details on how I arrived at this conclusion because many of my considerations were very personal, such as choosing a tool based on Node.js versus one based on ruby because I already had a Node.js environment.</p>
+<p>While it was not a clear-cut and easy decision, in the end, I chose to go with <a href="https://hexo.io" target="_blank" rel="external">Hexo</a>. I will not go into further details on how I arrived at this conclusion because many of my considerations were very personal, such as choosing a tool based on Node.js versus one based on ruby because I already had a Node.js environment.</p>
 <p>Once I settled on Hexo as the blogging framework, the next decision was where to host my blog. I had the option to push the content on to one of my servers or I could host it on GitHub Pages at a url such as <a href="ozbasarir.github.io">ozbasarir.github.io</a> for free with GitHub repository integration.</p>
-<p>If I hosted on GitHub Pages, I could use the “hexo deploy” command (after installing the <a href="https://github.com/hexojs/hexo-deployer-git">git deploy plugin</a> with <code>npm install hexo-deployer-git --save</code> and updating  <code>_config.yml</code>) to push updates of my posts to a GitHub repo. And since GitHub Pages would automatically publish the content of this repo, the changes would be live on the public blog site at the same time without any additional effort. Because I was already comfortable with GitHub and had created a few repos previously, this option appealed to me and I went with hosting on GitHub Pages.</p>
+<p>If I hosted on GitHub Pages, I could use the “hexo deploy” command (after installing the <a href="https://github.com/hexojs/hexo-deployer-git" target="_blank" rel="external">git deploy plugin</a> with <code>npm install hexo-deployer-git --save</code> and updating  <code>_config.yml</code>) to push updates of my posts to a GitHub repo. And since GitHub Pages would automatically publish the content of this repo, the changes would be live on the public blog site at the same time without any additional effort. Because I was already comfortable with GitHub and had created a few repos previously, this option appealed to me and I went with hosting on GitHub Pages.</p>
 <p>Below is a diagram of my setup:</p>
 <img src="/2016/09/13/Setting-up-a-Blogging-Environment/blogging_with_hexo_from_laptop.png" alt="Blogging with Hexo from laptop/desktop" title="Blogging with Hexo from laptop/desktop">
-<p>As you can see in this diagram, I am using <a href="https://atom.io/">Atom</a> to edit the <code>source</code> files. These <code>source</code> files are created by Hexo as shown below:</p>
+<p>As you can see in this diagram, I am using <a href="https://atom.io/" target="_blank" rel="external">Atom</a> to edit the <code>source</code> files. These <code>source</code> files are created by Hexo as shown below:</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">.</div><div class="line">├── source</div><div class="line">    ├── _drafts</div><div class="line">        ├── mypost1 (asset directory for mypost1)</div><div class="line">            ├── myimage1.jpg</div><div class="line">            └── ...</div><div class="line">        ├── mypost1.md</div><div class="line">        └── ... (an asset directory and a markdown file for each post)</div><div class="line">    ├── _posts</div><div class="line">        └── ... (same structure as _drafts, for published posts)</div><div class="line">    └── about (each custom page is a separate directory like this one)</div></pre></td></tr></table></figure>
-<p>Atom has a live preview pane that comes handy when editing the <a href="https://daringfireball.net/projects/markdown/syntax">Markdown</a> (.md) files in the <code>source</code> directory.</p>
+<p>Atom has a live preview pane that comes handy when editing the <a href="https://daringfireball.net/projects/markdown/syntax" target="_blank" rel="external">Markdown</a> (.md) files in the <code>source</code> directory.</p>
 <p>Once a post is written, it is time to generate the <code>public</code> files that will be deployed to the server. These <code>public</code> files are the final static html pages and related assets of your blog.</p>
 <p>To generate <code>public</code> from <code>source</code>, use the command:<br><figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">hexo generate</div></pre></td></tr></table></figure></p>
 <p>To deploy <code>public</code>:<br><figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">hexo deploy</div></pre></td></tr></table></figure></p>
 <p>Finally, I could navigate to my blog at the GitHub Pages url and proofread. GitHub Pages also gives the option to use your own domain name via a CNAME record.</p>
 <p>Well, now that I have my blogging environment up and running, I will need to find new excuses to distract myself from writing the next blog post. Wish me luck :)</p>
--->]]></content>
+]]></content>
     
     <summary type="html">
     
-      &lt;!-- &lt;img src=&quot;/2016/09/13/Setting-up-a-Blogging-Environment/blogging_with_hexo_from_laptop.png&quot; alt=&quot;blogging_with_hexo_from_laptop.png&quot; ti
+      &lt;img src=&quot;/2016/09/13/Setting-up-a-Blogging-Environment/blogging_with_hexo_from_laptop.png&quot; alt=&quot;blogging_with_hexo_from_laptop.png&quot; title=&quot;&quot;&gt; Blogging with Hexo…&lt;br&gt;
     
     </summary>
     
